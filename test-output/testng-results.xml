@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-28T22:16:30 IST" name="iOSAutomation" finished-at="2022-11-28T22:17:06 IST" duration-ms="36541">
+    <groups>
+    </groups>
+    <test started-at="2022-11-28T22:16:30 IST" name="AnsweringService" finished-at="2022-11-28T22:17:06 IST" duration-ms="36541">
+      <class name="com.answerconnect.deployment.testcases.Inbox">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.answerconnect.deployment.testcases.Inbox@6ec7bce0]" started-at="2022-11-28T22:16:30 IST" name="launchApp" finished-at="2022-11-28T22:16:35 IST" duration-ms="5456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method is-config="true" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.answerconnect.deployment.testcases.Inbox@6ec7bce0]" started-at="2022-11-28T22:16:35 IST" name="beforeTest" finished-at="2022-11-28T22:16:35 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.answerconnect.deployment.testcases.Inbox.inbox() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="inbox()[pri:0, instance:com.answerconnect.deployment.testcases.Inbox@6ec7bce0]" started-at="2022-11-28T22:16:35 IST" name="inbox" description="Inbox" finished-at="2022-11-28T22:17:06 IST" duration-ms="30534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inbox -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.answerconnect.deployment.testcases.Inbox@6ec7bce0]" started-at="2022-11-28T22:17:06 IST" name="afterMethod" finished-at="2022-11-28T22:17:06 IST" duration-ms="513" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=inbox status=SUCCESS method=Inbox.inbox()[pri:0, instance:com.answerconnect.deployment.testcases.Inbox@6ec7bce0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.answerconnect.deployment.testcases.Inbox@6ec7bce0]" started-at="2022-11-28T22:17:06 IST" name="tearDown" finished-at="2022-11-28T22:17:06 IST" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.answerconnect.deployment.testcases.Inbox -->
+    </test> <!-- AnsweringService -->
+  </suite> <!-- iOSAutomation -->
+</testng-results>
