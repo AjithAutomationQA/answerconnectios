@@ -14,11 +14,11 @@ public class Inbox extends BaseTest{
 			System.out.println("extent report");
 			InboxPage inboxPage = new InboxPage();
 		//	inboxPage.selectMessage();
-		//	inboxPage.shareThroughMail();
+			inboxPage.shareThroughMail();
 		//	inboxPage.shareViaConnect();
 		//	inboxPage.archiveMessage();
 		//	inboxPage.deleteMessage();
-			inboxPage.feedback();
+		//	inboxPage.feedback();
 		}
 		
 

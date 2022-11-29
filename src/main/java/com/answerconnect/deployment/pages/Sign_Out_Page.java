@@ -40,7 +40,7 @@ public class Sign_Out_Page extends BasePages {
 			tapTheElement(moreItem, "More item");
 			isDisplayed(myDirectory);
 			scrollDown(logoutOption, "Log out");
-			isDisplayed(logoutOption);
+			tapTheElement(logoutOption, "Logout option" );
 			tapTheElement(logoutButton, "Logout button");
 			isDisplayed(emailId);
 			takeSS(getBase64());

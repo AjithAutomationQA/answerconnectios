@@ -416,8 +416,7 @@ public class BasePages extends BaseTest {
 
 		HashMap<String, Object> scrollObject = new HashMap<String, Object>();
 		scrollObject.put("direction", "down");
-		scrollObject.put("element", ((RemoteWebElement) element).getId());
-		driver.executeScript("mobile:scroll", scrollObject);
+		driver.executeScript("mobile: scroll", scrollObject);
 		childTest.log(Status.INFO, "Scrolled down to ->" + name);
 		System.out.println("Scrolled down to ->" + name);
 

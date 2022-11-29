@@ -3,15 +3,15 @@
 <suite name="Failed suite [iOSAutomation]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="AnsweringService(failed)">
     <classes>
-      <class name="com.answerconnect.deployment.testcases.Inbox">
+      <class name="com.answerconnect.deployment.testcases.SignOut">
         <methods>
           <include name="tearDown"/>
-          <include name="inbox"/>
+          <include name="signOut"/>
           <include name="beforeTest"/>
           <include name="afterMethod"/>
           <include name="launchApp"/>
         </methods>
-      </class> <!-- com.answerconnect.deployment.testcases.Inbox -->
+      </class> <!-- com.answerconnect.deployment.testcases.SignOut -->
     </classes>
   </test> <!-- AnsweringService(failed) -->
 </suite> <!-- Failed suite [iOSAutomation] -->
